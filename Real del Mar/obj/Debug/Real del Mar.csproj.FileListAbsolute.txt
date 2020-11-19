@@ -1,0 +1,144 @@
+C:\Users\anaka\Documents\Real del Mar\Real del Mar\Real del Mar\bin\Debug\Real del Mar.exe.config
+C:\Users\anaka\Documents\Real del Mar\Real del Mar\Real del Mar\bin\Debug\Real del Mar.exe
+C:\Users\anaka\Documents\Real del Mar\Real del Mar\Real del Mar\bin\Debug\Real del Mar.pdb
+C:\Users\anaka\Documents\Real del Mar\Real del Mar\Real del Mar\obj\Debug\Real_del_Mar.GenerarPagare.resources
+C:\Users\anaka\Documents\Real del Mar\Real del Mar\Real del Mar\obj\Debug\Real_del_Mar.Inicio.resources
+C:\Users\anaka\Documents\Real del Mar\Real del Mar\Real del Mar\obj\Debug\Real_del_Mar.Properties.Resources.resources
+C:\Users\anaka\Documents\Real del Mar\Real del Mar\Real del Mar\obj\Debug\Real_del_Mar.Ventas.resources
+C:\Users\anaka\Documents\Real del Mar\Real del Mar\Real del Mar\obj\Debug\Real del Mar.csproj.GenerateResource.cache
+C:\Users\anaka\Documents\Real del Mar\Real del Mar\Real del Mar\obj\Debug\Real del Mar.csproj.CoreCompileInputs.cache
+C:\Users\anaka\Documents\Real del Mar\Real del Mar\Real del Mar\obj\Debug\Real del Mar.exe
+C:\Users\anaka\Documents\Real del Mar\Real del Mar\Real del Mar\obj\Debug\Real del Mar.pdb
+C:\Users\anaka\Documents\Real del Mar\Real del Mar\Real del Mar\obj\Debug\Real_del_Mar.Graficas.resources
+C:\Users\anaka\Documents\Real del Mar\Real del Mar\Real del Mar\obj\Debug\Real del Mar.csprojAssemblyReference.cache
+C:\Users\anaka\Documents\Real del Mar\Real del Mar\Real del Mar\obj\Debug\Real_del_Mar.Terrenos.resources
+C:\Users\anaka\Documents\Real del Mar\Real del Mar\Real del Mar\obj\Debug\Real_del_Mar.AgregarTerrenos.resources
+C:\Users\anaka\Documents\Real del Mar\Real del Mar\Real del Mar\obj\Debug\Real_del_Mar.Informacion.resources
+C:\Users\anaka\Documents\Real del Mar\Real del Mar\Real del Mar\obj\Debug\Real_del_Mar.AgregarClientes.resources
+C:\Users\anaka\Documents\Real del Mar\Real del Mar\Real del Mar\obj\Debug\Real_del_Mar.Clientes.resources
+C:\Users\anaka\Documents\Real del Mar\Real del Mar\Real del Mar\obj\Debug\Real_del_Mar.Promotores.resources
+C:\Users\anaka\Documents\Real del Mar\Real del Mar\Real del Mar\obj\Debug\Real_del_Mar.Reportes.resources
+C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\bin\Debug\Real del Mar.exe.config
+C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\bin\Debug\Real del Mar.exe
+C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\bin\Debug\Real del Mar.pdb
+C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\obj\Debug\Real del Mar.csprojAssemblyReference.cache
+C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\obj\Debug\Real_del_Mar.AgregarClientes.resources
+C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\obj\Debug\Real_del_Mar.AgregarTerrenos.resources
+C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\obj\Debug\Real_del_Mar.Clientes.resources
+C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\obj\Debug\Real_del_Mar.GenerarPagare.resources
+C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\obj\Debug\Real_del_Mar.Generarpagarepromotor.resources
+C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\obj\Debug\Real_del_Mar.Graficas.resources
+C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\obj\Debug\Real_del_Mar.Informacion.resources
+C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\obj\Debug\Real_del_Mar.Inicio.resources
+C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\obj\Debug\Real_del_Mar.Promotores.resources
+C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\obj\Debug\Real_del_Mar.Properties.Resources.resources
+C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\obj\Debug\Real_del_Mar.Reportes.resources
+C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\obj\Debug\Real_del_Mar.Terrenos.resources
+C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\obj\Debug\Real_del_Mar.Ventas.resources
+C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\obj\Debug\Real del Mar.csproj.GenerateResource.cache
+C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\obj\Debug\Real del Mar.csproj.CoreCompileInputs.cache
+C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\obj\Debug\Real del Mar.exe
+C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\obj\Debug\Real del Mar.pdb
+C:\Users\Gonzalo\Documents\GitHub\proyectoterreno\Real del Mar\bin\Debug\Real del Mar.exe.config
+C:\Users\Gonzalo\Documents\GitHub\proyectoterreno\Real del Mar\bin\Debug\Real del Mar.exe
+C:\Users\Gonzalo\Documents\GitHub\proyectoterreno\Real del Mar\bin\Debug\Real del Mar.pdb
+C:\Users\Gonzalo\Documents\GitHub\proyectoterreno\Real del Mar\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Gonzalo\Documents\GitHub\proyectoterreno\Real del Mar\bin\Debug\Google.Protobuf.dll
+C:\Users\Gonzalo\Documents\GitHub\proyectoterreno\Real del Mar\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Gonzalo\Documents\GitHub\proyectoterreno\Real del Mar\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Gonzalo\Documents\GitHub\proyectoterreno\Real del Mar\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Gonzalo\Documents\GitHub\proyectoterreno\Real del Mar\bin\Debug\MySql.Data.dll
+C:\Users\Gonzalo\Documents\GitHub\proyectoterreno\Real del Mar\bin\Debug\Renci.SshNet.dll
+C:\Users\Gonzalo\Documents\GitHub\proyectoterreno\Real del Mar\bin\Debug\System.Buffers.dll
+C:\Users\Gonzalo\Documents\GitHub\proyectoterreno\Real del Mar\bin\Debug\System.Memory.dll
+C:\Users\Gonzalo\Documents\GitHub\proyectoterreno\Real del Mar\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Gonzalo\Documents\GitHub\proyectoterreno\Real del Mar\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Gonzalo\Documents\GitHub\proyectoterreno\Real del Mar\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\Gonzalo\Documents\GitHub\proyectoterreno\Real del Mar\bin\Debug\Zstandard.Net.dll
+C:\Users\Gonzalo\Documents\GitHub\proyectoterreno\Real del Mar\bin\Debug\Google.Protobuf.pdb
+C:\Users\Gonzalo\Documents\GitHub\proyectoterreno\Real del Mar\bin\Debug\Google.Protobuf.xml
+C:\Users\Gonzalo\Documents\GitHub\proyectoterreno\Real del Mar\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\Gonzalo\Documents\GitHub\proyectoterreno\Real del Mar\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\Gonzalo\Documents\GitHub\proyectoterreno\Real del Mar\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\Gonzalo\Documents\GitHub\proyectoterreno\Real del Mar\bin\Debug\MySql.Data.xml
+C:\Users\Gonzalo\Documents\GitHub\proyectoterreno\Real del Mar\bin\Debug\Renci.SshNet.xml
+C:\Users\Gonzalo\Documents\GitHub\proyectoterreno\Real del Mar\bin\Debug\System.Buffers.xml
+C:\Users\Gonzalo\Documents\GitHub\proyectoterreno\Real del Mar\bin\Debug\System.Memory.xml
+C:\Users\Gonzalo\Documents\GitHub\proyectoterreno\Real del Mar\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Gonzalo\Documents\GitHub\proyectoterreno\Real del Mar\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Gonzalo\Documents\GitHub\proyectoterreno\Real del Mar\obj\Debug\Real del Mar.csprojAssemblyReference.cache
+C:\Users\Gonzalo\Documents\GitHub\proyectoterreno\Real del Mar\obj\Debug\Real_del_Mar.AgregarClientes.resources
+C:\Users\Gonzalo\Documents\GitHub\proyectoterreno\Real del Mar\obj\Debug\Real_del_Mar.AgregarTerrenos.resources
+C:\Users\Gonzalo\Documents\GitHub\proyectoterreno\Real del Mar\obj\Debug\Real_del_Mar.Clientes.resources
+C:\Users\Gonzalo\Documents\GitHub\proyectoterreno\Real del Mar\obj\Debug\Real_del_Mar.GenerarPagare.resources
+C:\Users\Gonzalo\Documents\GitHub\proyectoterreno\Real del Mar\obj\Debug\Real_del_Mar.Graficas.resources
+C:\Users\Gonzalo\Documents\GitHub\proyectoterreno\Real del Mar\obj\Debug\Real_del_Mar.Informacion.resources
+C:\Users\Gonzalo\Documents\GitHub\proyectoterreno\Real del Mar\obj\Debug\Real_del_Mar.Inicio.resources
+C:\Users\Gonzalo\Documents\GitHub\proyectoterreno\Real del Mar\obj\Debug\Real_del_Mar.Promotores.resources
+C:\Users\Gonzalo\Documents\GitHub\proyectoterreno\Real del Mar\obj\Debug\Real_del_Mar.Properties.Resources.resources
+C:\Users\Gonzalo\Documents\GitHub\proyectoterreno\Real del Mar\obj\Debug\Real_del_Mar.Reportes.resources
+C:\Users\Gonzalo\Documents\GitHub\proyectoterreno\Real del Mar\obj\Debug\Real_del_Mar.Terrenos.resources
+C:\Users\Gonzalo\Documents\GitHub\proyectoterreno\Real del Mar\obj\Debug\Real_del_Mar.Ventas.resources
+C:\Users\Gonzalo\Documents\GitHub\proyectoterreno\Real del Mar\obj\Debug\Real del Mar.csproj.GenerateResource.cache
+C:\Users\Gonzalo\Documents\GitHub\proyectoterreno\Real del Mar\obj\Debug\Real del Mar.csproj.CoreCompileInputs.cache
+C:\Users\Gonzalo\Documents\GitHub\proyectoterreno\Real del Mar\obj\Debug\Real del Mar.csproj.CopyComplete
+C:\Users\Gonzalo\Documents\GitHub\proyectoterreno\Real del Mar\obj\Debug\Real del Mar.exe
+C:\Users\Gonzalo\Documents\GitHub\proyectoterreno\Real del Mar\obj\Debug\Real del Mar.pdb
+C:\Users\Gonzalo\Documents\GitHub\proyectoterreno\Real del Mar\bin\Debug\MigraDoc.DocumentObjectModel.dll
+C:\Users\Gonzalo\Documents\GitHub\proyectoterreno\Real del Mar\bin\Debug\MigraDoc.Rendering.dll
+C:\Users\Gonzalo\Documents\GitHub\proyectoterreno\Real del Mar\bin\Debug\MigraDoc.RtfRendering.dll
+C:\Users\Gonzalo\Documents\GitHub\proyectoterreno\Real del Mar\bin\Debug\PdfSharp.Charting.dll
+C:\Users\Gonzalo\Documents\GitHub\proyectoterreno\Real del Mar\bin\Debug\PdfSharp.dll
+C:\Users\Gonzalo\Documents\GitHub\proyectoterreno\Real del Mar\bin\Debug\MigraDoc.DocumentObjectModel.xml
+C:\Users\Gonzalo\Documents\GitHub\proyectoterreno\Real del Mar\bin\Debug\MigraDoc.Rendering.xml
+C:\Users\Gonzalo\Documents\GitHub\proyectoterreno\Real del Mar\bin\Debug\MigraDoc.RtfRendering.xml
+C:\Users\Gonzalo\Documents\GitHub\proyectoterreno\Real del Mar\bin\Debug\PdfSharp.xml
+C:\Users\Gonzalo\Documents\GitHub\proyectoterreno\Real del Mar\bin\Debug\PdfSharp.Charting.xml
+C:\Users\Gonzalo\Documents\GitHub\proyectoterreno\Real del Mar\bin\Debug\de\MigraDoc.DocumentObjectModel.resources.dll
+C:\Users\Gonzalo\Documents\GitHub\proyectoterreno\Real del Mar\bin\Debug\de\MigraDoc.Rendering.resources.dll
+C:\Users\Gonzalo\Documents\GitHub\proyectoterreno\Real del Mar\bin\Debug\de\MigraDoc.RtfRendering.resources.dll
+C:\Users\Gonzalo\Documents\GitHub\proyectoterreno\Real del Mar\bin\Debug\de\PdfSharp.resources.dll
+C:\Users\Gonzalo\Documents\GitHub\proyectoterreno\Real del Mar\bin\Debug\de\PdfSharp.Charting.resources.dll
+C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\bin\Debug\Google.Protobuf.dll
+C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\bin\Debug\MigraDoc.DocumentObjectModel.dll
+C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\bin\Debug\MigraDoc.Rendering.dll
+C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\bin\Debug\MigraDoc.RtfRendering.dll
+C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\bin\Debug\MySql.Data.dll
+C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\bin\Debug\PdfSharp.Charting.dll
+C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\bin\Debug\PdfSharp.dll
+C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\bin\Debug\Renci.SshNet.dll
+C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\bin\Debug\System.Buffers.dll
+C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\bin\Debug\System.Memory.dll
+C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\bin\Debug\Zstandard.Net.dll
+C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\bin\Debug\Google.Protobuf.pdb
+C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\bin\Debug\Google.Protobuf.xml
+C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\bin\Debug\MigraDoc.DocumentObjectModel.xml
+C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\bin\Debug\MigraDoc.Rendering.xml
+C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\bin\Debug\MigraDoc.RtfRendering.xml
+C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\bin\Debug\MySql.Data.xml
+C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\bin\Debug\PdfSharp.xml
+C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\bin\Debug\PdfSharp.Charting.xml
+C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\bin\Debug\Renci.SshNet.xml
+C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\bin\Debug\System.Buffers.xml
+C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\bin\Debug\System.Memory.xml
+C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\bin\Debug\de\MigraDoc.DocumentObjectModel.resources.dll
+C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\bin\Debug\de\MigraDoc.Rendering.resources.dll
+C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\bin\Debug\de\MigraDoc.RtfRendering.resources.dll
+C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\bin\Debug\de\PdfSharp.resources.dll
+C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\bin\Debug\de\PdfSharp.Charting.resources.dll
+C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\obj\Debug\Real del Mar.csproj.CopyComplete
+C:\Users\Gonzalo\Documents\GitHub\proyectoterreno\Real del Mar\obj\Debug\Real_del_Mar.Agregar_Promotor.resources
+C:\Users\Gonzalo\Documents\GitHub\proyectoterreno\Real del Mar\bin\Debug\SpreadsheetLight.dll
+C:\Users\Gonzalo\Documents\GitHub\proyectoterreno\Real del Mar\bin\Debug\SpreadsheetLight.xml
