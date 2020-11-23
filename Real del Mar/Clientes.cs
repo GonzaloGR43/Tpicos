@@ -13,7 +13,6 @@ namespace Real_del_Mar
 {
     public partial class Clientes : Form
     {
-
         Conexion conexion = new Conexion();
 
         public Clientes()
@@ -26,19 +25,14 @@ namespace Real_del_Mar
             AgregarClientes ac = new AgregarClientes();
             if (ac.ShowDialog() == DialogResult.OK) ;        
                 refescodecola();
-    
-            
         }
 
         public void refescodecola()
         {
             try
             {
-                //Mostrar los datos de Mysql a C#
+               //Actualizar datos 
                 conexion.AbrirConexion();
-
-
-
                 string Query = "select * from realdelmar.clientes";
 
                 MySqlCommand MyCommand2 = new MySqlCommand(Query, conexion._conexion);
@@ -71,6 +65,45 @@ namespace Real_del_Mar
         private void lbltitulo_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btneliminar_Click(object sender, EventArgs e)
+
+        {
+            if (dgvcliente.SelectedRows.Count == 0)
+            {
+                MessageBox.Show("¿Selecciona un registro primero?", "Resgistro invalido");
+                return;
+            }
+            else if (MessageBox.Show("Seguro que quieres Eliminar", "Advertencia", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
+            {
+                var folio = dgvcliente.SelectedRows[0].Cells[0].Value;
+                string Res = "";
+                dgvcliente.SelectedRows.ToString();
+                try
+                {
+
+                    string actualizar = string.Format("Delete FROM clientes where IDClientes = '" + folio + "'");
+                    MySqlCommand com = new MySqlCommand(actualizar, conexion._conexion);
+                    conexion._conexion.Open();
+                    com.ExecuteNonQuery();
+                    MessageBox.Show("Se elimino el registro", "ELIMINADO");
+                    conexion._conexion.Close();
+                    refescodecola();
+                }
+                catch (Exception ex)
+                {
+                    Res = ex.Message;
+                    conexion._conexion.Close();
+                }
+            }
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Creación_contrato cc = new Creación_contrato();
+            cc.Show();
         }
     }
 }

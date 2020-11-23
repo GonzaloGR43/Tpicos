@@ -30,16 +30,13 @@
         {
             this.btncancelarpagare = new System.Windows.Forms.Button();
             this.btnagregarpagare = new System.Windows.Forms.Button();
-            this.lblfolio = new System.Windows.Forms.Label();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.label3 = new System.Windows.Forms.Label();
             this.lbltitulo = new System.Windows.Forms.Label();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.tableLayoutPanel7 = new System.Windows.Forms.TableLayoutPanel();
-            this.label13 = new System.Windows.Forms.Label();
+            this.lblFecha = new System.Windows.Forms.Label();
             this.CBClienteGenerarPgare = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
             this.txtPersonaFisica_GP = new System.Windows.Forms.TextBox();
@@ -65,7 +62,6 @@
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
-            this.tableLayoutPanel7.SuspendLayout();
             this.tableLayoutPanel4.SuspendLayout();
             this.tableLayoutPanel5.SuspendLayout();
             this.tableLayoutPanel6.SuspendLayout();
@@ -100,20 +96,6 @@
             this.btnagregarpagare.Text = "Agregar";
             this.btnagregarpagare.UseVisualStyleBackColor = false;
             this.btnagregarpagare.Click += new System.EventHandler(this.btnagregarpagare_Click);
-            // 
-            // lblfolio
-            // 
-            this.lblfolio.AutoSize = true;
-            this.lblfolio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(92)))), ((int)(((byte)(130)))));
-            this.lblfolio.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblfolio.Font = new System.Drawing.Font("Microsoft YaHei UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblfolio.ForeColor = System.Drawing.Color.White;
-            this.lblfolio.Location = new System.Drawing.Point(3, 0);
-            this.lblfolio.Name = "lblfolio";
-            this.lblfolio.Size = new System.Drawing.Size(125, 52);
-            this.lblfolio.TabIndex = 21;
-            this.lblfolio.Text = "Folio";
-            this.lblfolio.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // tableLayoutPanel1
             // 
@@ -187,16 +169,15 @@
             // 
             // tableLayoutPanel2
             // 
-            this.tableLayoutPanel2.ColumnCount = 2;
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel2.ColumnCount = 1;
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel3, 0, 0);
-            this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel7, 1, 0);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 65);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel2.Size = new System.Drawing.Size(538, 58);
             this.tableLayoutPanel2.TabIndex = 21;
             // 
@@ -205,14 +186,14 @@
             this.tableLayoutPanel3.ColumnCount = 1;
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel3.Controls.Add(this.label1, 0, 0);
-            this.tableLayoutPanel3.Controls.Add(this.label2, 0, 1);
+            this.tableLayoutPanel3.Controls.Add(this.lblFecha, 0, 1);
             this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel3.Location = new System.Drawing.Point(3, 3);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 2;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(263, 52);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(532, 52);
             this.tableLayoutPanel3.TabIndex = 0;
             // 
             // label1
@@ -224,55 +205,28 @@
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(3, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(257, 26);
+            this.label1.Size = new System.Drawing.Size(526, 26);
             this.label1.TabIndex = 0;
             this.label1.Text = "Fecha";
             this.label1.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
             // 
-            // label2
+            // lblFecha
             // 
-            this.label2.AutoSize = true;
-            this.label2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label2.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(3, 26);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(257, 26);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "05/11/2020";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
-            // 
-            // tableLayoutPanel7
-            // 
-            this.tableLayoutPanel7.ColumnCount = 2;
-            this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel7.Controls.Add(this.label13, 0, 0);
-            this.tableLayoutPanel7.Controls.Add(this.lblfolio, 0, 0);
-            this.tableLayoutPanel7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel7.Location = new System.Drawing.Point(272, 3);
-            this.tableLayoutPanel7.Name = "tableLayoutPanel7";
-            this.tableLayoutPanel7.RowCount = 1;
-            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel7.Size = new System.Drawing.Size(263, 52);
-            this.tableLayoutPanel7.TabIndex = 0;
-            // 
-            // label13
-            // 
-            this.label13.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.label13.AutoSize = true;
-            this.label13.Cursor = System.Windows.Forms.Cursors.No;
-            this.label13.Enabled = false;
-            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.label13.Location = new System.Drawing.Point(134, 0);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(45, 52);
-            this.label13.TabIndex = 54;
-            this.label13.Text = "123";
-            this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblFecha.AutoSize = true;
+            this.lblFecha.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lblFecha.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFecha.Location = new System.Drawing.Point(3, 26);
+            this.lblFecha.Name = "lblFecha";
+            this.lblFecha.Size = new System.Drawing.Size(526, 26);
+            this.lblFecha.TabIndex = 1;
+            this.lblFecha.Text = "05/11/2020";
+            this.lblFecha.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
+            this.lblFecha.Click += new System.EventHandler(this.label2_Click);
             // 
             // CBClienteGenerarPgare
             // 
+            this.CBClienteGenerarPgare.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.CBClienteGenerarPgare.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.CBClienteGenerarPgare.Cursor = System.Windows.Forms.Cursors.Hand;
             this.CBClienteGenerarPgare.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.CBClienteGenerarPgare.FormattingEnabled = true;
@@ -280,6 +234,8 @@
             this.CBClienteGenerarPgare.Name = "CBClienteGenerarPgare";
             this.CBClienteGenerarPgare.Size = new System.Drawing.Size(324, 28);
             this.CBClienteGenerarPgare.TabIndex = 28;
+            this.CBClienteGenerarPgare.Text = "Seleccionar";
+            this.CBClienteGenerarPgare.SelectedIndexChanged += new System.EventHandler(this.CBClienteGenerarPgare_SelectedIndexChanged);
             // 
             // label4
             // 
@@ -301,6 +257,8 @@
             this.txtPersonaFisica_GP.Name = "txtPersonaFisica_GP";
             this.txtPersonaFisica_GP.Size = new System.Drawing.Size(324, 26);
             this.txtPersonaFisica_GP.TabIndex = 30;
+            this.txtPersonaFisica_GP.TextChanged += new System.EventHandler(this.txtPersonaFisica_GP_TextChanged);
+            this.txtPersonaFisica_GP.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtPersonaFisica_GP_KeyPress);
             // 
             // tableLayoutPanel4
             // 
@@ -319,6 +277,7 @@
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 88.09524F));
             this.tableLayoutPanel4.Size = new System.Drawing.Size(538, 201);
             this.tableLayoutPanel4.TabIndex = 31;
+            this.tableLayoutPanel4.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel4_Paint);
             // 
             // Cal_GP
             // 
@@ -326,8 +285,10 @@
             this.Cal_GP.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Cal_GP.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.Cal_GP.Location = new System.Drawing.Point(9, 32);
+            this.Cal_GP.MaxSelectionCount = 1;
             this.Cal_GP.Name = "Cal_GP";
             this.Cal_GP.TabIndex = 27;
+            this.Cal_GP.DateChanged += new System.Windows.Forms.DateRangeEventHandler(this.Cal_GP_DateChanged);
             // 
             // label5
             // 
@@ -364,6 +325,8 @@
             this.txtLugarPago_GP.Name = "txtLugarPago_GP";
             this.txtLugarPago_GP.Size = new System.Drawing.Size(246, 26);
             this.txtLugarPago_GP.TabIndex = 30;
+            this.txtLugarPago_GP.TextChanged += new System.EventHandler(this.txtLugarPago_GP_TextChanged);
+            this.txtLugarPago_GP.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtLugarPago_GP_KeyPress);
             // 
             // label7
             // 
@@ -411,6 +374,7 @@
             this.txtPoblacion_GP.Name = "txtPoblacion_GP";
             this.txtPoblacion_GP.Size = new System.Drawing.Size(324, 26);
             this.txtPoblacion_GP.TabIndex = 35;
+            this.txtPoblacion_GP.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtPoblacion_GP_KeyPress);
             // 
             // tableLayoutPanel5
             // 
@@ -461,6 +425,7 @@
             this.txtDescuento_GP.Size = new System.Drawing.Size(125, 26);
             this.txtDescuento_GP.TabIndex = 5;
             this.txtDescuento_GP.Text = "0";
+            this.txtDescuento_GP.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtDescuento_GP_KeyPress);
             this.txtDescuento_GP.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtCantidad_GP_KeyUp);
             // 
             // label12
@@ -528,6 +493,7 @@
             this.txtCantidad_GP.Size = new System.Drawing.Size(125, 26);
             this.txtCantidad_GP.TabIndex = 4;
             this.txtCantidad_GP.Text = "0";
+            this.txtCantidad_GP.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCantidad_GP_KeyPress);
             this.txtCantidad_GP.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtCantidad_GP_KeyUp);
             // 
             // tableLayoutPanel6
@@ -550,6 +516,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
+            this.AutoValidate = System.Windows.Forms.AutoValidate.Disable;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(563, 527);
             this.Controls.Add(this.tableLayoutPanel1);
@@ -558,13 +525,13 @@
             this.Name = "GenerarPagare";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Generar Pagaré";
+            this.AutoValidateChanged += new System.EventHandler(this.GenerarPagare_AutoValidateChanged);
+            this.Load += new System.EventHandler(this.GenerarPagare_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             this.tableLayoutPanel2.ResumeLayout(false);
             this.tableLayoutPanel3.ResumeLayout(false);
             this.tableLayoutPanel3.PerformLayout();
-            this.tableLayoutPanel7.ResumeLayout(false);
-            this.tableLayoutPanel7.PerformLayout();
             this.tableLayoutPanel4.ResumeLayout(false);
             this.tableLayoutPanel4.PerformLayout();
             this.tableLayoutPanel5.ResumeLayout(false);
@@ -578,12 +545,11 @@
 
         private System.Windows.Forms.Button btncancelarpagare;
         private System.Windows.Forms.Button btnagregarpagare;
-        private System.Windows.Forms.Label lblfolio;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lblFecha;
         private System.Windows.Forms.Label lbltitulo;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.ComboBox CBClienteGenerarPgare;
@@ -607,8 +573,6 @@
         private System.Windows.Forms.TextBox txtCantidad_GP;
         private System.Windows.Forms.TextBox txtTotal_GP;
         private System.Windows.Forms.TextBox txtIntereses_GP;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel7;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel6;
-        private System.Windows.Forms.Label label13;
     }
 }

@@ -23,5 +23,10 @@ namespace Real_del_Mar
             Terrenos t = new Terrenos();
            
         }
+
+        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

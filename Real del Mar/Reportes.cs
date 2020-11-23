@@ -26,5 +26,10 @@ namespace Real_del_Mar
         {
 
         }
+
+        private void Reportes_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

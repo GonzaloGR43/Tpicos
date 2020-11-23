@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Terrenos));
-            this.button1 = new System.Windows.Forms.Button();
+            this.btninfo = new System.Windows.Forms.Button();
             this.dvgterreno = new System.Windows.Forms.DataGridView();
             this.btnbuscarterrenos = new System.Windows.Forms.Button();
             this.btnagregarterrenos = new System.Windows.Forms.Button();
@@ -39,32 +39,43 @@
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
+            this.btneliminar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dvgterreno)).BeginInit();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
+            this.tableLayoutPanel3.SuspendLayout();
             this.SuspendLayout();
             // 
-            // button1
+            // btninfo
             // 
-            this.button1.Location = new System.Drawing.Point(3, 181);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 28;
-            this.button1.Text = "Info";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btninfo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btninfo.BackColor = System.Drawing.Color.White;
+            this.btninfo.FlatAppearance.BorderSize = 0;
+            this.btninfo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btninfo.Image = ((System.Drawing.Image)(resources.GetObject("btninfo.Image")));
+            this.btninfo.Location = new System.Drawing.Point(641, 31);
+            this.btninfo.Name = "btninfo";
+            this.btninfo.Size = new System.Drawing.Size(71, 45);
+            this.btninfo.TabIndex = 28;
+            this.btninfo.Text = "Información";
+            this.btninfo.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btninfo.UseVisualStyleBackColor = false;
+            this.btninfo.Click += new System.EventHandler(this.button1_Click);
             // 
             // dvgterreno
             // 
             this.dvgterreno.AllowUserToAddRows = false;
             this.dvgterreno.AllowUserToDeleteRows = false;
             this.dvgterreno.AllowUserToOrderColumns = true;
+            this.dvgterreno.BackgroundColor = System.Drawing.Color.White;
             this.dvgterreno.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dvgterreno.Location = new System.Drawing.Point(3, 226);
+            this.dvgterreno.Location = new System.Drawing.Point(3, 274);
             this.dvgterreno.Name = "dvgterreno";
             this.dvgterreno.ReadOnly = true;
             this.dvgterreno.Size = new System.Drawing.Size(739, 265);
             this.dvgterreno.TabIndex = 27;
+            this.dvgterreno.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dvgterreno_CellContentClick);
             // 
             // btnbuscarterrenos
             // 
@@ -123,7 +134,6 @@
             this.lbltitulo.Size = new System.Drawing.Size(739, 57);
             this.lbltitulo.TabIndex = 23;
             this.lbltitulo.Text = "Terrenos";
-            this.lbltitulo.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // tableLayoutPanel1
             // 
@@ -132,18 +142,19 @@
             this.tableLayoutPanel1.Controls.Add(this.lbltitulo, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.dvgterreno, 0, 5);
             this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel2, 0, 2);
-            this.tableLayoutPanel1.Controls.Add(this.button1, 0, 3);
             this.tableLayoutPanel1.Controls.Add(this.label1, 0, 1);
+            this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel3, 0, 4);
             this.tableLayoutPanel1.Location = new System.Drawing.Point(3, 3);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 6;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 61F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 77F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 37F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 8F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 75F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(745, 494);
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 85F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 60F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(745, 582);
             this.tableLayoutPanel1.TabIndex = 29;
             // 
             // tableLayoutPanel2
@@ -186,12 +197,48 @@
             this.label1.Size = new System.Drawing.Size(739, 40);
             this.label1.TabIndex = 30;
             // 
+            // tableLayoutPanel3
+            // 
+            this.tableLayoutPanel3.ColumnCount = 4;
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 569F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 68F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 78F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 17F));
+            this.tableLayoutPanel3.Controls.Add(this.btneliminar, 1, 0);
+            this.tableLayoutPanel3.Controls.Add(this.btninfo, 2, 0);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(3, 189);
+            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
+            this.tableLayoutPanel3.RowCount = 1;
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(739, 79);
+            this.tableLayoutPanel3.TabIndex = 31;
+            // 
+            // btneliminar
+            // 
+            this.btneliminar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btneliminar.BackColor = System.Drawing.Color.White;
+            this.btneliminar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btneliminar.FlatAppearance.BorderSize = 0;
+            this.btneliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btneliminar.Image = ((System.Drawing.Image)(resources.GetObject("btneliminar.Image")));
+            this.btneliminar.Location = new System.Drawing.Point(569, 29);
+            this.btneliminar.Margin = new System.Windows.Forms.Padding(0, 3, 3, 3);
+            this.btneliminar.Name = "btneliminar";
+            this.btneliminar.Size = new System.Drawing.Size(65, 47);
+            this.btneliminar.TabIndex = 33;
+            this.btneliminar.Text = "Eliminar";
+            this.btneliminar.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btneliminar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btneliminar.UseVisualStyleBackColor = false;
+            this.btneliminar.Click += new System.EventHandler(this.btneliminar_Click);
+            // 
             // Terrenos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(755, 504);
+            this.ClientSize = new System.Drawing.Size(755, 598);
             this.Controls.Add(this.tableLayoutPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Terrenos";
@@ -203,13 +250,14 @@
             this.tableLayoutPanel1.PerformLayout();
             this.tableLayoutPanel2.ResumeLayout(false);
             this.tableLayoutPanel2.PerformLayout();
+            this.tableLayoutPanel3.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btninfo;
         private System.Windows.Forms.DataGridView dvgterreno;
         private System.Windows.Forms.Button btnbuscarterrenos;
         private System.Windows.Forms.Button btnagregarterrenos;
@@ -219,5 +267,7 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
+        private System.Windows.Forms.Button btneliminar;
     }
 }

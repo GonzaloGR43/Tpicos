@@ -34,21 +34,19 @@ namespace Real_del_Mar
         private void btnAgregar_Promotor_Click(object sender, EventArgs e)
         {
             Agregar_Promotor ap = new Agregar_Promotor();
-            ap.Show();
+            if (ap.ShowDialog() == DialogResult.OK) ;
+            refescodecola();
         }
 
-        private void Promotores_Load(object sender, EventArgs e)
+        public void refescodecola()
         {
             try
             {
-                //Mostrar los datos de Mysql a C#
+                //Actualizar datos 
                 conexion.AbrirConexion();
+                string Query = "select * from realdelmar.promotores";
 
-                string MyConnection2 = "datasource=localhost;port=3306;username=root;password=Hola...264";
-
-                string Query = "select * from realdelmar.ventas";
-                MySqlConnection MyConn2 = new MySqlConnection(MyConnection2);
-                MySqlCommand MyCommand2 = new MySqlCommand(Query, MyConn2);
+                MySqlCommand MyCommand2 = new MySqlCommand(Query, conexion._conexion);
 
                 MySqlDataAdapter MyAdapter = new MySqlDataAdapter();
                 MyAdapter.SelectCommand = MyCommand2;
@@ -60,6 +58,42 @@ namespace Real_del_Mar
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void Promotores_Load(object sender, EventArgs e)
+        {
+            refescodecola();
+        }
+
+        private void btneliminar_Click(object sender, EventArgs e)
+        {
+            if (dgvpromo.SelectedRows.Count == 0)
+            {
+                MessageBox.Show("¿Selecciona un registro primero?", "Resgistro invalido");
+                return;
+            }
+            else if (MessageBox.Show("Seguro que quieres Eliminar", "Advertencia", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
+            {
+                var folio = dgvpromo.SelectedRows[0].Cells[0].Value;
+                string Res = "";
+                dgvpromo.SelectedRows.ToString();
+                try
+                {
+                    
+                    string actualizar = string.Format("Delete FROM promotores where Clave_Terreno = '" + folio + "'");
+                    MySqlCommand com = new MySqlCommand(actualizar, conexion._conexion);
+                    conexion._conexion.Open();
+                    com.ExecuteNonQuery();
+                    MessageBox.Show("Se elimino el registro", "ELIMINADO");
+                    conexion._conexion.Close();
+                    refescodecola();
+                }
+                catch (Exception ex)
+                {
+                    Res = ex.Message;
+                    conexion._conexion.Close();
+                }
             }
         }
     }

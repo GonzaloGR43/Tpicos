@@ -26,7 +26,6 @@ C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\obj\Debug\Real_del_
 C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\obj\Debug\Real_del_Mar.AgregarTerrenos.resources
 C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\obj\Debug\Real_del_Mar.Clientes.resources
 C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\obj\Debug\Real_del_Mar.GenerarPagare.resources
-C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\obj\Debug\Real_del_Mar.Generarpagarepromotor.resources
 C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\obj\Debug\Real_del_Mar.Graficas.resources
 C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\obj\Debug\Real_del_Mar.Informacion.resources
 C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\obj\Debug\Real_del_Mar.Inicio.resources
@@ -142,3 +141,8 @@ C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\obj\Debug\Real del 
 C:\Users\Gonzalo\Documents\GitHub\proyectoterreno\Real del Mar\obj\Debug\Real_del_Mar.Agregar_Promotor.resources
 C:\Users\Gonzalo\Documents\GitHub\proyectoterreno\Real del Mar\bin\Debug\SpreadsheetLight.dll
 C:\Users\Gonzalo\Documents\GitHub\proyectoterreno\Real del Mar\bin\Debug\SpreadsheetLight.xml
+C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\bin\Debug\SpreadsheetLight.dll
+C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\bin\Debug\SpreadsheetLight.xml
+C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\obj\Debug\Real_del_Mar.Agregar_Promotor.resources
+C:\Users\anaka\Documents\rm-git\proyectoterreno\Real del Mar\obj\Debug\Real_del_Mar.Creación_contrato.resources
+C:\Users\Gonzalo\Documents\GitHub\proyectoterreno\Real del Mar\obj\Debug\Real_del_Mar.Creación_contrato.resources

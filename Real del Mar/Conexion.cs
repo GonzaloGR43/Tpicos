@@ -13,7 +13,10 @@ namespace Real_del_Mar
 
         public Conexion()
         {
+            //Conexion Gonzalo
             _conexion = new MySqlConnection("server=localhost; port=3306; database=realdelmar; Uid=root; pwd=p@ssw0rd");
+            //Conexion Ana
+            //_conexion = new MySqlConnection("server=localhost; port=3306; database=realdelmar; Uid=root; pwd=Hola...264");
         }
 
         public bool AbrirConexion()

@@ -136,6 +136,12 @@
     </Compile>
     <Compile Include="ClientesCLASE.cs" />
     <Compile Include="Conexion.cs" />
+    <Compile Include="Creación_contrato.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Creación_contrato.Designer.cs">
+      <DependentUpon>Creación_contrato.cs</DependentUpon>
+    </Compile>
     <Compile Include="Generar pagare.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -180,6 +186,7 @@
     <Compile Include="Terrenos.Designer.cs">
       <DependentUpon>Terrenos.cs</DependentUpon>
     </Compile>
+    <Compile Include="validar.cs" />
     <Compile Include="Ventas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -197,6 +204,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Clientes.resx">
       <DependentUpon>Clientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Creación_contrato.resx">
+      <DependentUpon>Creación_contrato.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Generar pagare.resx">
       <DependentUpon>Generar pagare.cs</DependentUpon>

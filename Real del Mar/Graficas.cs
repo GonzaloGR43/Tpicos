@@ -8,6 +8,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
+//Los iconos usados en este sistema son de https://www.flaticon.es/ , todos los derechos estan reservados a los autores/creadores de los iconos. 
+//No somos los creadores de dichos iconos/imagenes.
+
 namespace Real_del_Mar
 {
     public partial class Graficas : Form
@@ -15,6 +19,11 @@ namespace Real_del_Mar
         public Graficas()
         {
             InitializeComponent();
+        }
+
+        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

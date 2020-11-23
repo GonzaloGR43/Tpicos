@@ -13,6 +13,8 @@ namespace Real_del_Mar
 {
     public partial class Terrenos : Form
     {
+        Conexion conexion = new Conexion();
+
         public Terrenos()
         {
             InitializeComponent();
@@ -21,7 +23,30 @@ namespace Real_del_Mar
         private void btnagregarterrenos_Click(object sender, EventArgs e)
         {
             AgregarTerrenos at = new AgregarTerrenos();
-            at.Show();
+            if (at.ShowDialog() == DialogResult.OK) ;
+            refescodecola();
+        }
+        public void refescodecola()
+        {
+            try
+            {
+                //Actualizar datos 
+                conexion.AbrirConexion();
+                string Query = "select * from realdelmar.terrenos";
+
+                MySqlCommand MyCommand2 = new MySqlCommand(Query, conexion._conexion);
+
+                MySqlDataAdapter MyAdapter = new MySqlDataAdapter();
+                MyAdapter.SelectCommand = MyCommand2;
+                DataTable dTable = new DataTable();
+                MyAdapter.Fill(dTable);
+                dvgterreno.DataSource = dTable;
+                conexion.CerrarConeccion();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -34,24 +59,65 @@ namespace Real_del_Mar
         {
             try
             {
-                //Mostrar los datos de Mysql a C#
-                Conexion co = new Conexion();
-                string MyConnection3 = "datasource=localhost;port=3306;username=root;password=Hola...264";
 
+                //Actualizar datos 
+                conexion.AbrirConexion();
                 string Query = "select * from realdelmar.terrenos";
-                MySqlConnection MyConn3 = new MySqlConnection(MyConnection3);
-                MySqlCommand MyCommand3 = new MySqlCommand(Query, MyConn3);
+
+                MySqlCommand MyCommand2 = new MySqlCommand(Query, conexion._conexion);
 
                 MySqlDataAdapter MyAdapter = new MySqlDataAdapter();
-                MyAdapter.SelectCommand = MyCommand3;
-                DataTable dTablee = new DataTable();
-                MyAdapter.Fill(dTablee);
-                dvgterreno.DataSource = dTablee;
+                MyAdapter.SelectCommand = MyCommand2;
+                DataTable dTable = new DataTable();
+                MyAdapter.Fill(dTable);
+                dvgterreno.DataSource = dTable;               
+                conexion._conexion.Close();
+
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }
+        }
+        
+
+        private void btneliminar_Click(object sender, EventArgs e)
+        {
+
+
+            if (dvgterreno.SelectedRows.Count == 0)
+            {
+                MessageBox.Show("¿Selecciona un registro primero?", "Resgistro invalido");
+                return;
+            }
+            else if (MessageBox.Show("Seguro que quieres Eliminar", "Advertencia", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
+            {
+                var folio = dvgterreno.SelectedRows[0].Cells[0].Value;
+                string Res = "";
+                dvgterreno.SelectedRows.ToString();
+                try
+                {
+                    string Estatus = "Cancelado";
+                    string actualizar = string.Format("Delete FROM terrenos where IDTerrenos = '" + folio + "'");
+                    MySqlCommand com = new MySqlCommand(actualizar, conexion._conexion);
+                    conexion._conexion.Open();
+                    com.ExecuteNonQuery();
+                    MessageBox.Show("Se elimino el registro", "ELIMINADO");
+                    conexion._conexion.Close();
+                    refescodecola();
+                }
+                catch (Exception ex)
+                {
+                    Res = ex.Message;
+                    conexion._conexion.Close();
+                }
+            }
+
+        }
+
+        private void dvgterreno_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }
